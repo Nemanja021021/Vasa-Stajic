@@ -1,0 +1,98 @@
+/* Основне поставке */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Наслов */
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Мени */
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Главни део */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.bio-img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #4caf50;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Респонзивни дизајн */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .bio-img {
+    max-width: 100%;
+  }
+}
